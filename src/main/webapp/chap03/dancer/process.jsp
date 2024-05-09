@@ -11,10 +11,10 @@
 <%
     request.setCharacterEncoding("utf-8");
 
-    String name = req.getParameter("name");
-    String crewName = req.getParameter("crewName");
-    String danceLevel = req.getParameter("danceLevel");
-    String[] genres = req.getParameterValues("genres");
+    String name = request.getParameter("name");
+    String crewName = request.getParameter("crewName");
+    String danceLevel = request.getParameter("danceLevel");
+    String[] genres = request.getParameterValues("genres");
 
     // 댄서 객체 생성
     Dancer dancer = new Dancer();
