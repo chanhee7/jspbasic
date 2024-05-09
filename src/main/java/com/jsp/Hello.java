@@ -13,7 +13,7 @@ public class Hello extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("hello my website");
+//        System.out.println("hello my website");
 
         resp.setContentType("text/html");
         resp.setCharacterEncoding("UTF-8");
