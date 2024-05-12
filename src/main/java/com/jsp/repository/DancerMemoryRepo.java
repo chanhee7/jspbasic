@@ -29,4 +29,10 @@ public class DancerMemoryRepo {
         System.out.println(dancerList);
         return true;
     }
+
+    // 댄서리스트를 반환하는 기능
+    public List<Dancer> retrieve() {
+        return dancerList;
+    }
+
 }
