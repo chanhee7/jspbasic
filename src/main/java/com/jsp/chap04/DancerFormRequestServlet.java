@@ -1,4 +1,4 @@
-package com.jsp.chan04;
+package com.jsp.chap04;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
