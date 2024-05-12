@@ -52,6 +52,7 @@ public class DancerSaveProcessServlet extends HttpServlet {
 
         System.out.println("dancer = " + dancer);
 
+        // 댄서 리스트에 등록
         dancerList.add(dancer);
 
         // 응답 메세지 생성
