@@ -19,5 +19,6 @@ public class DancerFormRequestServlet extends HttpServlet {
         // forwarding: 화면 파일을 찾아서 열어주는 개념
         RequestDispatcher rd = req.getRequestDispatcher("/WEB-INF/chap04/register.jsp");
         rd.forward(req, resp);
+
     }
 }
