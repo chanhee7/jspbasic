@@ -8,7 +8,6 @@
     <artifactId>jspbasic</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <!-- embedded tomcat 설정 -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,6 +16,7 @@
         <tomcat.version>9.0.39</tomcat.version>
     </properties>
 
+    <!--  라이브러리 관리  -->
     <dependencies>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
@@ -50,21 +50,21 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
         </dependency>
+
+        <!--    jstl 라이브러리    -->
         <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-servlet-api</artifactId>
-            <version>9.0.39</version>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
         </dependency>
+
+        <!--    database 관련 라이브러리    -->
         <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.12.0</version>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>3.3.3</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.maven.surefire</groupId>
-            <artifactId>surefire-shared-utils</artifactId>
-            <version>3.1.2</version>
-        </dependency>
+
     </dependencies>
 
     <build>
