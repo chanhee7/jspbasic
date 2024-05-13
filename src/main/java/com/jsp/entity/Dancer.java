@@ -46,6 +46,8 @@ public class Dancer {
         }
     }
 
+    private int id; // 댄서 식별값
+
     private String name; // 댄서 이름
 
     private String crewName; // 댄서 팀 이름
@@ -56,6 +58,14 @@ public class Dancer {
 
 
     public Dancer() {
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public Dancer(String name, String crewName, DanceLevel danceLevel, List<Genre> genres) {
